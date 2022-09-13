@@ -1,1 +1,1 @@
-docker build -f /home/ubuntu/tutorial-codepipeline/Dockerfile . -t tutorial:latest
+docker build -f /home/ubuntu/tutorial . -t tutorial:latest
