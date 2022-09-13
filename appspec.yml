@@ -2,7 +2,8 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/tutorial-codepipeline
+    destination: /home/ubuntu/aut0-test
+
 
 hooks:
   BeforeInstall:
