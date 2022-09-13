@@ -6,7 +6,7 @@ on:
 env:
   MODULE_NAME: logging-system
   S3_BUCKET_NAME: aut0-test
-  PROJECT_NAME: aut0-test
+  PROJECT_NAME: playground
 
 jobs:
   build:
