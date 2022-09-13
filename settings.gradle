@@ -1,7 +1,0 @@
-rootProject.name = 'playground'
-
-include 'playground-batch'
-include 'playground-core'
-include 'playground-learning-test'
-include 'playground-logging-system'
-include 'playground-web'
