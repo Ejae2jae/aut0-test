@@ -1,1 +1,0 @@
-docker build -f /home/ubuntu/tutorial . -t tutorial:latest

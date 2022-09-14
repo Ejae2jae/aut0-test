@@ -1,22 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: /
-    destination: /home/ubuntu/aut0-test
-
-
-hooks:
-  BeforeInstall:
-    # 프로젝트 디렉토리 기준으로의 경로를 적어줍니다.
-    # local이나 server 인스턴스의 기준이 아닙니다!
-    - location: /initialize.sh
-  AfterInstall:
-    - location: /buildImage.sh
-      runas: root
-  ApplicationStart:
-    - location: /start.sh
-
-#   ValidateService:
-#     - location: Scripts/MonitorService.sh
-#       timeout: 3600
-#       runas: codedeployuser
+  - source:  /
+    destination: /home/ubuntu/build/
